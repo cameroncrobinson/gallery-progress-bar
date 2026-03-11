@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+html {
+  scroll-behavior: smooth;
+  color:white;
+}
+h2{
+  margin:15px;
+}
+.section {
+      -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+#section1{
+  
+  background: url(https://bit.ly/2tS9x51) no-repeat center center fixed;
+
+}
+#section2{
+ background:url(https://bit.ly/2RbLZA4) no-repeat center center fixed;
+
+}
+#section3{
+   background:url(https://bit.ly/30gVGkI) no-repeat center center fixed;
+
+}
+#section4{
+background:url(https://bit.ly/2QTz5Yx) no-repeat center center fixed;
+
+}
+  
+  #footer {
+  position: fixed;
+  top: 0;
+  z-index: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+/* The progress container (grey background) */
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 8px;
+  background: #4caf50;
+  width: 0%;
+}
+a{
+  color:white;
+}
+
+a:visited{
+  color:white;
+}
+
+.fa-arrow-up:hover{
+   
+   animation: bounceUp 1s infinite
+}
+@keyframes bounceUp{
+   0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(0, -10px);
+  }
+}
+
+
+.fa-arrow-down:hover{
+    animation: bounceDown 1s infinite;
+ 
+}
+@keyframes bounceDown{
+   0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(0, 10px);
+  }
+}
